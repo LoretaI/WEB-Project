@@ -4,20 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Projects</title>
     <link rel="stylesheet" a href="css/projects.css">
-    <nav class="nav_wrapper">
-        <ul>
-            <li ><a href="index.html">Home</a></li>
-            <li ><a href="projects.html">Projects</a></li>
-            <li class="is--active"><a href="login.html">Login/Register</a></li>
-           
-        </ul>
-    </nav>
 </head>
-
 <body>
-     <div class="projects">
+     <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero">
+            <h1><span>F </span>& <span>J</span> Architects</h1>
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="index.html" data-after="Home">Home</a></li>
+            <li><a href="index.html" data-after="About">About</a></li>
+            <li><a href="projects.html" data-after="Projects">Projects</a></li>
+            <li><a href="login.html" data-after="Login">Login/Register</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    </section>
+    <!-- End Header -->
+    
+    <div class="projects">
         <section id="firstcontainer">
             <h1>PROJECTS</h1>
             <p class="pr1">PETRO'S HOUSE</p>
@@ -27,6 +43,7 @@
             <div class="sliderwrap">
                 <img id="slide" src="IMG/Foto1.jpg">
             </div>
+            <!--scroll down-->
             <div class="scrolldown">
                 <span></span>
                 <span></span>
@@ -34,6 +51,8 @@
             </div>
             <p class="pr2">scroll down for more projects</p>
         </section>
+        
+        <!--Other projects-->
         <section id="secondcontainer">
             <div class="projectscontainer">
                 <div class="pro1">
@@ -57,8 +76,7 @@
                 </div>
             </div>
         </section>
-
     </div>
-    <script src="js/login.js"></script>
+    <script src="js/projects.js"></script>
 </body>
 </html>
